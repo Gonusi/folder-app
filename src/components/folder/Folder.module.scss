@@ -1,0 +1,50 @@
+@import '../../styles/variables';
+
+.container {
+	align-items: flex-start;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	width: 100px;
+}
+
+.content {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.icon {
+	filter: grayscale(0.2);
+	height: auto;
+	margin-bottom: 1px;
+	opacity: 0.85;
+	width: 50px;
+
+	&.selected, &.hover {
+		filter: grayscale(0);
+		opacity: 1;
+	}
+}
+
+.label {
+	border-radius: 2px;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	cursor: default;
+	font-size: 12px;
+	margin-left: -7px; // TODO adjust image files instead
+	max-height: 48px;
+	overflow: hidden;
+	padding: 2px 5px;
+	word-break: break-word;
+
+	&.selected {
+		background: rgba($c_primary, 0.1);
+		border: 1px solid rgba($c_primary, 0.8);
+	}
+}
+
+
+
