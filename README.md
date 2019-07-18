@@ -61,7 +61,7 @@ bootstrap it.
 Quickly tested on latest chrome, firefox, chrome for android and safari iOs. <br/>
 Will not work on Internet Explorer (but should work fine on Edge) browser. 
 
-####Planned improvements (didn't make it in time):
+#### Planned improvements (didn't make it in time):
 - implement keyboard shortcuts and navigation;
 - deal with very long folder names better (currently names are clipped after 3 lines);
 - if last input was a touch input (not mouse), disable double, use single click;
